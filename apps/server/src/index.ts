@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/suspicious/noConsole: <allow console for development> */
 import "dotenv/config";
 import { OpenAPIHandler } from "@orpc/openapi/fetch";
 import { OpenAPIReferencePlugin } from "@orpc/openapi/plugins";

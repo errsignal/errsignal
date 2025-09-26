@@ -1,0 +1,9 @@
+import posthog from "posthog-js";
+import { env } from "@/env";
+
+posthog.init(env.NEXT_PUBLIC_POSTHOG_KEY, {
+  api_host: "/ingest",
+  ui_host: "https://eu.posthog.com",
+  defaults: "2025-05-24",
+  capture_exceptions: false,
+});
